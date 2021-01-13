@@ -25,7 +25,6 @@ class TestEmployee(unittest.TestCase):
         self.assertEqual(self.adam.email, 'adam.honore@sei713.com')
 
     def test_fullname(self):
-
         self.assertEqual(self.rome.fullname, 'Rome Bell')
         self.assertEqual(self.adam.fullname, 'Adam Honore')
 
